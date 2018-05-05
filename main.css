@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+
+body{
+	margin: 30px;
+	background-image: url("img/back2.jpeg");
+}
+
+header span{
+	font-size: 30px;
+}
+
+header div{
+	float: right;
+	padding: 30px 10px;
+}
+
+header{
+	background-image: url("img/back1.jpg");
+	overflow: auto;
+	margin: 40px 60px 0px 60px;
+}
+
+#span1{
+	color: white;
+}
+
+#span2{
+	color: red;
+}
+
+main{
+	background-color: white;
+	margin: 15px 100px;
+	overflow: auto;
+	padding-bottom: 50px;
+}
+
+main h2{
+	padding: 20px 10px;
+}
+
+main p{
+	margin-top: 10px;
+}
+
+section{
+	margin: 15px 0px;
+	padding: 20px 60px;
+}
+#personajes{
+	border-right: dotted 10px red ;
+	width: 33%;
+	display: inline-block;
+	float: left;
+	padding-right: 10px;
+}
+
+#personajes ul{
+	list-style: none;
+}
+
+#personajes h2{
+	color: white;
+	background: red;
+}
+
+#casting{
+	border-right: dotted 10px blue ;
+	width: 33%;
+	float: left;
+	padding: 0px 10px;
+}
+
+#casting h2{
+	color: white;
+	background: blue;
+}
+
+#rodaje{
+	width: 33%;
+	float: right;
+}
+
+#rodaje h2{
+	color: white;
+	background: green;
+}
